@@ -71,6 +71,7 @@ export default function App() {
       {selected && <SplitBillForm
         selected={selected}
         onSplitBill={handleSplitBill}
+        key={crypto.randomUUID()}
       />}
 
     </div>
